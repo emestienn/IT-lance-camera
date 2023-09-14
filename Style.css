@@ -1,0 +1,1007 @@
+.section-9 .container, .section-8 .container, .section-7 .container, .section-5 .container, .section-4 .container, .section-3 .container, .section-2 .container, .section-1 .container, .hero .container, .navbar .container {
+  width: 70%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 700px) {
+  .section-9 .container, .section-8 .container, .section-7 .container, .section-5 .container, .section-4 .container, .section-3 .container, .section-2 .container, .section-1 .container, .hero .container, .navbar .container {
+    width: 80%;
+  }
+}
+
+.menu-bar, .section-7 .container .txt-6 .h-i, .section-5 .container, .section-3 .container .cam, .section-2 .container .cards-2 .card-2 .card-txt2, .section-2 .container .cards-2, .section-1 .container .cards-1, .hero .container .cam-img, .navbar .container .buttons, .navbar .container ul, .navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-9 .container form button, .section-5 .container .phone-cam .phone .phone-button button, .section-4 .container button, .section-3 .container .absolute-3 form button, .hero .container button, .navbar .container .buttons #b-1 {
+  padding: 10px 20px;
+  border-radius: 60px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-color: rgb(241, 241, 241);
+}
+.navbar .container {
+  position: relative;
+  align-items: center;
+  padding: 15px 0;
+}
+.navbar .container ul {
+  gap: 30px;
+  align-items: center;
+}
+@media screen and (max-width: 1100px) {
+  .navbar .container ul {
+    display: none;
+  }
+}
+.navbar .container ul li {
+  list-style: none;
+}
+.navbar .container ul li a {
+  text-decoration: none;
+  color: rgb(106, 106, 106);
+  font-size: 16px;
+}
+.navbar .container ul li a:hover {
+  font-weight: bold;
+}
+.navbar .container .bars {
+  opacity: 0;
+}
+@media screen and (max-width: 1100px) {
+  .navbar .container .bars {
+    color: rgb(54, 76, 118);
+    opacity: 1;
+    position: absolute;
+    top: 35%;
+    right: 0;
+    font-size: 1.5rem;
+  }
+}
+.navbar .container .buttons {
+  gap: 20px;
+}
+.navbar .container .buttons #b-1 {
+  color: rgb(0, 197, 222);
+  border: 0.5px solid rgb(0, 197, 222);
+  background-color: transparent;
+}
+.navbar .container .buttons #b-2 {
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 13px;
+  padding: 0 10px;
+}
+@media screen and (max-width: 700px) {
+  .navbar .container .buttons {
+    display: none;
+  }
+}
+
+.hero {
+  background-image: url(./Media/bgc.png), linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero .container {
+  text-align: center;
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+.hero .container h1 {
+  color: rgb(0, 197, 222);
+  font-size: 60px;
+}
+@media screen and (max-width: 1100px) {
+  .hero .container h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hero .container h1 {
+    font-size: 24px;
+  }
+}
+.hero .container p {
+  padding: 20px 0;
+  font-size: 18px;
+  color: rgb(106, 106, 106);
+}
+.hero .container button {
+  background-color: rgb(0, 197, 222);
+  border: none;
+}
+.hero .container button a {
+  color: white;
+  text-decoration: none;
+}
+.hero .container .cam-img {
+  width: 80%;
+  margin: 0 auto;
+  margin-left: -20px;
+  margin-top: -12%;
+  align-items: flex-end;
+  padding: 0 0;
+}
+@media screen and (max-width: 700px) {
+  .hero .container .cam-img {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+}
+.hero .container .cam-img .cam {
+  background-color: transparent;
+  padding: 0 0;
+  width: 4%;
+}
+.hero .container .cam-img .cam-1 {
+  z-index: 99;
+}
+.hero .container .cam-img .cam-2 {
+  position: relative;
+  left: -15%;
+}
+@media screen and (max-width: 1100px) {
+  .hero .container .cam-img .cam-2 {
+    left: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hero .container .cam-img .cam-2 {
+    left: -100%;
+    z-index: 99;
+  }
+}
+.hero .container .cam-img .cam-3 {
+  padding: 0 10px;
+  margin-right: -25px;
+}
+@media screen and (max-width: 1100px) {
+  .hero .container .cam-img .cam-3 {
+    display: none;
+    padding: 0 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hero .container .cam-img .cam-4 {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hero .container .cam-img .cam-5 {
+    display: none;
+  }
+}
+
+.section-1 {
+  position: relative;
+}
+.section-1 .container {
+  text-align: center;
+  padding: 80px 0;
+}
+.section-1 .container h1 {
+  padding-bottom: 30px;
+  color: rgb(54, 76, 118);
+}
+.section-1 .container .cards-1 {
+  flex-wrap: wrap;
+  gap: 30px;
+}
+@media screen and (max-width: 1100px) {
+  .section-1 .container .hide {
+    display: none;
+  }
+}
+.section-1 .container .card-1 {
+  width: 30%;
+  background: transparent;
+  position: relative;
+}
+@media screen and (max-width: 1100px) {
+  .section-1 .container .card-1 {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .section-1 .container .card-1 {
+    width: 100%;
+  }
+}
+.section-1 .container .card-1 .card-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+.section-1 .container .card-1 .card-txt h4 {
+  color: rgb(0, 197, 222);
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+.section-1 .container .card-1 .card-txt p {
+  line-height: 24px;
+  font-weight: 100;
+  font-size: 12px;
+  color: rgb(106, 106, 106);
+}
+.section-1 .container .space {
+  padding: 3px;
+  border-radius: 50px;
+  border: 2px dashed rgb(0, 197, 222);
+  background-color: transparent;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%);
+}
+@media screen and (max-width: 700px) {
+  .section-1 .container .space {
+    top: 40%;
+  }
+}
+.section-1 .container .space .card-absolute {
+  background-color: rgb(0, 197, 222);
+  padding: 20px;
+  color: white;
+  border-radius: 50px;
+}
+.section-1 .dots-1 {
+  position: absolute;
+  right: 0%;
+  top: 10%;
+}
+.section-1 .dots-2 {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+}
+.section-1 .dots-3 {
+  position: absolute;
+  right: 0%;
+  bottom: 10%;
+}
+
+.section-2 {
+  position: relative;
+  background: linear-gradient(180deg, #F7F7F7 0%, rgba(247, 247, 247, 0.912716) 77.88%, rgba(247, 247, 247, 0) 100%);
+}
+.section-2 .container {
+  padding: 110px 0;
+  text-align: center;
+}
+.section-2 .container h1 {
+  padding-bottom: 40px;
+  color: rgb(54, 76, 118);
+  font-weight: 200;
+}
+.section-2 .container h1 span {
+  font-weight: bold;
+}
+.section-2 .container .cards-2 {
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.section-2 .container .cards-2 #short {
+  width: 39%;
+}
+@media screen and (max-width: 1100px) {
+  .section-2 .container .cards-2 #short {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .section-2 .container .cards-2 #short {
+    width: 100%;
+  }
+}
+.section-2 .container .cards-2 #long {
+  width: 55%;
+}
+@media screen and (max-width: 1100px) {
+  .section-2 .container .cards-2 #long {
+    width: 45%;
+  }
+  .section-2 .container .cards-2 #long video {
+    height: 180px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .section-2 .container .cards-2 #long {
+    width: 100%;
+  }
+  .section-2 .container .cards-2 #long video {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .section-2 .container .cards-2 .hide {
+    display: none;
+  }
+}
+.section-2 .container .cards-2 .card-2 {
+  justify-content: flex-end;
+}
+.section-2 .container .cards-2 .card-2 .video {
+  position: relative;
+  width: 100%;
+}
+.section-2 .container .cards-2 .card-2 .video video {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.11);
+}
+.section-2 .container .cards-2 .card-2 .video .space {
+  padding: 3px;
+  border-radius: 50px;
+  border: 2px dashed rgba(255, 255, 255, 0.8);
+  background-color: transparent;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.section-2 .container .cards-2 .card-2 .video .space .card-absolute {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 17px 20px;
+  color: #7D53F8;
+  border-radius: 50px;
+  font-size: 1.2rem;
+}
+.section-2 .container .cards-2 .card-2 .card-txt2 {
+  align-items: center;
+  padding: 20px 0;
+  color: rgb(54, 76, 118);
+}
+.section-2 .container .cards-2 .card-2 .card-txt2 .card-2-img {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: left;
+}
+.section-2 .container .cards-2 .card-2 .card-txt2 .card-2-img img {
+  width: 19%;
+  border-radius: 70px;
+  background-size: cover;
+  background-position: top;
+}
+.section-2 .container .cards-2 .card-2 .card-txt2 .card-2-img .elon-musk p {
+  font-size: 12px;
+}
+.section-2 .container .cards-2 .card-2 .card-txt2 .card-2-img .elon-musk h4 {
+  font-size: 16px;
+}
+.section-2 .container .cards-2 .card-2 .card-txt2 .data {
+  text-align: right;
+}
+.section-2 .container .cards-2 .card-2 .card-txt2 .data p {
+  font-size: 12px;
+}
+.section-2 .container .cards-2 .card-2 .card-txt2 .data h4 {
+  font-size: 16px;
+}
+.section-2 .container .cards-2 .card-2 .comment {
+  width: 90%;
+  position: relative;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px 30px;
+  margin-top: 20px;
+  color: rgb(54, 76, 118);
+  text-align: left;
+  margin-left: 8%;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.11);
+}
+.section-2 .container .cards-2 .card-2 h5 {
+  font-size: 15px;
+  padding-bottom: 15px;
+  margin-left: -8px;
+}
+.section-2 .container .cards-2 .card-2 ul {
+  padding-left: 10px;
+}
+.section-2 .container .cards-2 .card-2 ul li p {
+  font-size: 14px;
+  line-height: 24px;
+}
+.section-2 .container .cards-2 .card-2 .triangle {
+  position: absolute;
+  top: -18%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #ffffff;
+  border-right: 40px solid transparent;
+}
+@media screen and (max-width: 1100px) {
+  .section-2 .container .cards-2 .card-2 .triangle {
+    top: -10%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .section-2 .container .cards-2 .card-2 .triangle {
+    top: -16%;
+  }
+}
+.section-2 .container .cards-2 .card-2 .quote {
+  position: absolute;
+  bottom: -15%;
+  right: 5%;
+  color: #5C36CA;
+  font-size: 40px;
+}
+.section-2 .hexagon-1 {
+  position: absolute;
+  right: 0;
+  top: 10%;
+}
+.section-2 .hexagon-2 {
+  position: absolute;
+  left: 0;
+  top: 45%;
+}
+.section-2 .hexagon-3 {
+  position: absolute;
+  right: 0;
+  top: 80%;
+}
+
+.section-3 {
+  position: relative;
+  background: linear-gradient(180deg, #0C0823 0%, #130C35 100%);
+  color: white;
+}
+.section-3 .container {
+  position: relative;
+  padding: 110px 0;
+  text-align: center;
+}
+.section-3 .container .absolute-3 {
+  width: 100%;
+  display: flex;
+  padding: 30px 40px;
+  gap: 30px;
+  align-items: center;
+  background-color: rgb(14, 9, 42);
+  position: absolute;
+  top: -2.5%;
+  border-radius: 20px;
+  box-shadow: 0 2px 30px rgba(125, 83, 248, 0.3);
+}
+@media screen and (max-width: 1100px) {
+  .section-3 .container .absolute-3 .div-i {
+    display: none;
+  }
+}
+.section-3 .container .absolute-3 .p-3 {
+  width: 25%;
+}
+.section-3 .container .absolute-3 .p-3 p {
+  text-align: left;
+  font-size: 14px;
+}
+.section-3 .container .absolute-3 .p-3 p span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+@media screen and (max-width: 1100px) {
+  .section-3 .container .absolute-3 .p-3 {
+    display: none;
+  }
+}
+.section-3 .container .absolute-3 form {
+  justify-content: space-between;
+  display: flex;
+  width: 60%;
+}
+@media screen and (max-width: 1100px) {
+  .section-3 .container .absolute-3 form {
+    width: 100%;
+  }
+}
+.section-3 .container .absolute-3 form input {
+  width: 60%;
+  padding: 8px 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 60px;
+  color: white;
+}
+.section-3 .container .absolute-3 form button {
+  width: 35%;
+  background-color: rgb(0, 197, 222);
+  color: white;
+}
+.section-3 .container h1 {
+  text-transform: uppercase;
+}
+.section-3 .container .cam-types {
+  text-align: left;
+  padding-top: 50px;
+}
+@media screen and (max-width: 1100px) {
+  .section-3 .container .hide {
+    display: none;
+  }
+}
+.section-3 .container .cam {
+  gap: 30%;
+  align-items: center;
+  padding-top: 100px;
+}
+@media screen and (max-width: 700px) {
+  .section-3 .container .cam {
+    flex-wrap: wrap;
+  }
+}
+.section-3 .container .cam .cam-image {
+  position: relative;
+  width: 10%;
+}
+@media screen and (max-width: 700px) {
+  .section-3 .container .cam .cam-image {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .section-3 .container .cam .cam-image img {
+    width: 100%;
+  }
+}
+.section-3 .container .cam .cam-image #light {
+  position: absolute;
+  top: -25%;
+  left: 145px;
+}
+@media screen and (max-width: 700px) {
+  .section-3 .container .cam .cam-image #light {
+    top: 15%;
+    left: 120px;
+  }
+}
+.section-3 .container .cam .cam-image #light2 {
+  position: absolute;
+  top: -25%;
+  right: 15px;
+}
+.section-3 .container .cam .cam-image #light3 {
+  position: absolute;
+  top: -90px;
+  left: 130px;
+}
+@media screen and (max-width: 700px) {
+  .section-3 .container .cam .cam-image #light3 {
+    top: -40px;
+    left: 140px;
+  }
+}
+.section-3 .container .cam .cam-image #light4 {
+  position: absolute;
+  top: -75%;
+  right: 25%;
+}
+.section-3 .container .cam .cam-txt {
+  position: relative;
+}
+.section-3 .container .cam .cam-txt .dashed-line {
+  width: 48%;
+  padding: 10px 0;
+  border-bottom: 2px dashed white;
+}
+@media screen and (max-width: 700px) {
+  .section-3 .container .cam .cam-txt .dashed-line {
+    font-size: 15px;
+    width: 85%;
+  }
+}
+.section-3 .container .cam .cam-txt p {
+  padding: 15px 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100;
+}
+.section-3 .container .cam .cam-txt .lines {
+  position: absolute;
+  right: 10%;
+  width: 15%;
+  border-bottom: 2px dashed rgb(125, 83, 248);
+}
+@media screen and (max-width: 700px) {
+  .section-3 .container .cam .cam-txt .lines {
+    width: 35%;
+  }
+}
+.section-3 .hexagon-4 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.section-3 .hexagon-5 {
+  position: absolute;
+  right: 0;
+  top: 15%;
+}
+.section-3 .hexagon-6 {
+  position: absolute;
+  left: 0;
+  bottom: 10%;
+}
+.section-3 .hexagon-7 {
+  position: absolute;
+  right: 0;
+  top: 70%;
+}
+.section-3 .hexagon-8 {
+  position: absolute;
+  left: 0;
+  top: 58%;
+}
+.section-3 .hexagon-9 {
+  position: absolute;
+  left: 0;
+  top: 5%;
+}
+.section-3 .dots-1 {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+.section-3 .dots-2 {
+  position: absolute;
+  right: 5%;
+  top: 55%;
+}
+.section-3 .dots-3 {
+  position: absolute;
+  left: 10%;
+  top: 70%;
+}
+
+.section-4 {
+  position: relative;
+}
+.section-4 .container {
+  padding: 60px 0;
+  text-align: center;
+}
+.section-4 .container h1 {
+  color: rgb(54, 76, 118);
+  font-weight: 400;
+}
+.section-4 .container h1 span {
+  font-weight: bold;
+}
+.section-4 .container .big-img {
+  margin: 30px 0;
+  padding: 10px;
+  border: 2px solid rgb(0, 197, 222);
+  border-radius: 20px;
+}
+.section-4 .container .big-img .inside-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+.section-4 .container button {
+  background-color: rgb(0, 197, 222);
+  color: white;
+  border: none;
+  text-transform: uppercase;
+}
+.section-4 .dots-1 {
+  position: absolute;
+  right: 0%;
+  top: 10%;
+}
+.section-4 .dots-2 {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+}
+.section-4 .dots-3 {
+  position: absolute;
+  right: 0%;
+  bottom: 10%;
+}
+
+.section-5 {
+  position: relative;
+  background: linear-gradient(281.67deg, #180D54 -4.4%, #171258 44.88%, #472BA7 127.43%, #5C36CA 136.4%);
+}
+.section-5 .container {
+  gap: 50px;
+  position: relative;
+  padding-top: 70px;
+  color: white;
+}
+@media screen and (max-width: 1100px) {
+  .section-5 .container {
+    flex-wrap: wrap;
+  }
+}
+.section-5 .container .phone-cam {
+  display: flex;
+}
+@media screen and (max-width: 700px) {
+  .section-5 .container .phone-cam #cam {
+    display: none;
+  }
+}
+.section-5 .container .phone-cam .phone {
+  position: relative;
+  padding: 10px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 20px;
+  background-color: white;
+}
+@media screen and (max-width: 1100px) {
+  .section-5 .container .phone-cam .phone {
+    border-radius: 30px;
+  }
+}
+.section-5 .container .phone-cam .phone .phone-top {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: white;
+  padding: 5px 20px;
+  font-size: 10px;
+  color: #7D53F8;
+}
+.section-5 .container .phone-cam .phone .phone-button {
+  width: 90%;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+.section-5 .container .phone-cam .phone .phone-button button {
+  background-color: rgb(0, 197, 222);
+  color: white;
+  border: none;
+  width: 100%;
+}
+.section-5 .container .phone-cam .phone img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.section-5 .container .txt-5 {
+  position: relative;
+  margin-top: 50px;
+  width: 40%;
+}
+@media screen and (max-width: 1100px) {
+  .section-5 .container .txt-5 {
+    margin-bottom: 60px;
+  }
+}
+.section-5 .container .txt-5 .comment {
+  width: 100%;
+  margin-top: 50px;
+  position: absolute;
+  bottom: -5%;
+  background-color: white;
+  border-radius: 30px;
+  padding: 30px;
+  color: rgb(54, 76, 118);
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.11);
+}
+.section-5 .container .txt-5 .comment p {
+  font-size: 14px;
+  padding: 10px 0;
+}
+@media screen and (max-width: 1100px) {
+  .section-5 .container .txt-5 .comment {
+    width: 100%;
+    left: 110%;
+  }
+}
+.section-5 .container .txt-5 .triangle {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 60px solid #ffffff;
+  border-right: 50px solid transparent;
+}
+.section-5 .container .txt-5 .quote {
+  position: absolute;
+  bottom: -15%;
+  right: 5%;
+  color: #5C36CA;
+  font-size: 40px;
+}
+.section-5 .hexagon-4 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.section-5 .hexagon-5 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.section-5 .hexagon-6 {
+  position: absolute;
+  left: 0;
+  top: 40%;
+}
+.section-5 .hexagon-7 {
+  position: absolute;
+  right: 0;
+  top: 60%;
+}
+.section-5 .dots-1 {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+.section-5 .dots-2 {
+  position: absolute;
+  right: 5%;
+  top: 55%;
+}
+.section-5 .dots-3 {
+  position: absolute;
+  left: 10%;
+  top: 70%;
+}
+
+.section-7 {
+  background: linear-gradient(180deg, #0C0823 0%, #130C35 100%);
+  color: white;
+}
+.section-7 .container {
+  text-align: center;
+  padding: 70px 0;
+}
+.section-7 .container h1 {
+  padding-bottom: 40px;
+}
+.section-7 .container .txt-6 {
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background: transparent;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.section-7 .container .txt-6 p {
+  padding: 10px 0;
+}
+.section-7 .container .txt-6 .h-i i {
+  color: rgb(0, 197, 222);
+}
+
+.section-8 .container {
+  padding: 70px 0;
+  color: rgb(54, 76, 118);
+}
+.section-8 .container h1 {
+  margin: 0 auto;
+  padding-bottom: 30px;
+  width: 80%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 700px) {
+  .section-8 .container h1 {
+    width: 100%;
+    font-size: 18px;
+  }
+}
+.section-8 .container h1 span {
+  font-weight: bold;
+}
+.section-8 .container p {
+  padding: 12px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+@media screen and (max-width: 700px) {
+  .section-8 .container p {
+    font-size: 12px;
+  }
+}
+
+.section-9 {
+  background: linear-gradient(180deg, #F7F7F7 0%, rgba(247, 247, 247, 0.912716) 77.88%, rgba(247, 247, 247, 0) 100%);
+}
+.section-9 .container {
+  padding: 80px 0;
+  text-align: center;
+}
+.section-9 .container h1 {
+  padding-bottom: 40px;
+  color: rgb(54, 76, 118);
+}
+.section-9 .container h1 span {
+  font-weight: bold;
+}
+.section-9 .container form {
+  box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+  padding: 40px;
+  background-color: white;
+}
+.section-9 .container form h1 {
+  padding-bottom: 40px;
+}
+.section-9 .container form .name {
+  padding: 20px 0;
+}
+.section-9 .container form .name input {
+  width: 30%;
+  margin: 0 30px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(188, 188, 188);
+  padding: 10px 0;
+  background: transparent;
+}
+.section-9 .container form p {
+  font-size: 13px;
+}
+.section-9 .container form textarea {
+  width: 100%;
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
+}
+.section-9 .container form button {
+  background-color: rgb(0, 197, 222);
+  color: white;
+  border: none;
+}
+
+.menu-bar {
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: -50%;
+  text-align: center;
+  transition: 1s;
+  z-index: 99;
+}
+.menu-bar .link {
+  padding: 15px;
+  width: 100%;
+  border: 1px solid rgba(188, 188, 188, 0.2);
+}
+.menu-bar .link a {
+  text-decoration: none;
+  color: rgb(54, 76, 118);
+}
+.menu-bar .link a:hover {
+  font-weight: bold;
+}
+
+#menu-bar {
+  display: none;
+}
+
+#menu-bar:checked + .menu-bar {
+  transform: translateY(175%);
+}
+
+button:hover {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*# sourceMappingURL=Style.css.map */
